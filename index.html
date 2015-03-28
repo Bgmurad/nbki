@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Отправка запроса в НБКИ</title>
+  </head>
+  <body>
+        <h2><p><b> Форма для загрузки файлов </b></p></h2>
+              <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <input type="file" name="filename"><br> 
+                    <input type="submit" value="Загрузить"><br>
+                    <p><b>Выберите вид запроса:  </b></p>
+                    <p><input type="radio" name="zpr" value="ckki">запрос данных в ЦККИ через НБКИ</p>
+                    <p><input type="radio" name="zpr" value="fms">запрос данных в ФМС через НБКИ</p>
+                    <p><input type="radio" name="zpr" value="gibdd">запрос данных в ГИБДД через НБКИ</p>
+                    <p><input type="radio" name="zpr" value="zts">запрос данных по залоговым транспортным средствам</p>
+                </form>
+  </body>
+</html>
